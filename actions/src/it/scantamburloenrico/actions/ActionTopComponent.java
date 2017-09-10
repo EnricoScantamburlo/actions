@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package it.scantamburloenrico.actions;
 
 import java.awt.BorderLayout;
@@ -126,7 +121,7 @@ public final class ActionTopComponent extends TopComponent implements ExplorerMa
 
         @Override
         public String getName() {
-            return "ActionNode"; //To change body of generated methods, choose Tools | Templates.
+            return "ActionNode";
         }
 
         @Override
@@ -137,7 +132,7 @@ public final class ActionTopComponent extends TopComponent implements ExplorerMa
         @Override
         public Action[] getActions(boolean context) {
             // I read the actions from the layer.xml
-            List<? extends Action> actions = Utilities.actionsForPath("Actions/MyActions");
+            List<? extends Action> actions = Utilities.actionsForPath("Actions/NodeActions");
             return actions.toArray(new Action[actions.size()]);
         }
 

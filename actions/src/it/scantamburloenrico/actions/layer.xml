@@ -3,5 +3,46 @@
 <filesystem>
     <folder name="MyActions">
         <file name="it-scantamburloenrico-actions-impl-Custom.instance" />
+        <file name="it-scantamburloenrico-actions-impl-Icon.instance" />
+        <file name="it-scantamburloenrico-actions-impl-SubMenu.instance" />
+        <file name="it-scantamburloenrico-actions-impl-Multiple.instance" />
+    </folder>
+    <folder name="Actions">
+        <folder name="NodeActions">
+            <file name="Custom.shadow" >
+                <attr name="originalFile" stringvalue="MyActions/it-scantamburloenrico-actions-impl-Custom.instance"/>
+                <attr name="position" intvalue="200" />
+            </file>
+            <file name="Icon.shadow" >
+                <attr name="originalFile" stringvalue="MyActions/it-scantamburloenrico-actions-impl-Icon.instance"/>
+                <attr name="position" intvalue="300" />
+            </file>
+            <!--Separator-->
+            <file name="separator-1.instance">
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="400" name="position"/>
+            </file>
+            <file name="SubMenu.shadow" >
+                <attr name="originalFile" stringvalue="MyActions/it-scantamburloenrico-actions-impl-SubMenu.instance"/>
+                <attr name="position" intvalue="500" />
+            </file>
+            <file name="separator-2.instance">
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="600" name="position"/>
+            </file>
+            <file name="Multiple.shadow" >
+                <attr name="originalFile" stringvalue="MyActions/it-scantamburloenrico-actions-impl-Multiple.instance"/>
+                <attr name="position" intvalue="700" />
+            </file>
+            <file name="separator-3.instance">
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="800" name="position"/>
+            </file>
+            <file name="org-netbeans-modules-project-ui-NewProject.shadow">
+                <attr name="originalFile" stringvalue="Actions/Project/org-netbeans-modules-project-ui-NewProject.instance"/>
+                <attr intvalue="900" name="position"/>
+            </file>
+
+        </folder>
     </folder>
 </filesystem>

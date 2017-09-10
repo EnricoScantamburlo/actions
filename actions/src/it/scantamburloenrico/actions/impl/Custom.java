@@ -19,7 +19,7 @@ public class Custom extends AbstractAction implements ContextAwareAction {
     }
 
     private Custom(Lookup lkp) {
-
+        super("Custom");
     }
 
     @Override

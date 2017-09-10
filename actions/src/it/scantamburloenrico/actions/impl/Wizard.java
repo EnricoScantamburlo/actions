@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package it.scantamburloenrico.actions.impl;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import org.openide.*;
 import org.openide.awt.ActionID;
+import org.openide.awt.ActionReference;
 import org.openide.awt.ActionRegistration;
 import org.openide.util.NbBundle.Messages;
 
@@ -19,6 +15,8 @@ import org.openide.util.NbBundle.Messages;
 @ActionRegistration(
         displayName = "#CTL_Wizard"
 )
+// Added to create a reference to the action
+@ActionReference(path = "Actions/NodeActions", position = 100)
 @Messages("CTL_Wizard=WizardAction")
 public final class Wizard implements ActionListener {
 
